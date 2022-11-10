@@ -17,4 +17,9 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, Remote-rvm: ruby-2.7.5-p203) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.11, Remote-rvm: ruby-2.7.5-p203) [gem]" level="application" />
   </component>
+  <component name="RakeTasksCache">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake" />
+    </option>
+  </component>
 </module>

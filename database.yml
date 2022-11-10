@@ -1,28 +1,13 @@
-DB = Sequel.connect(
-  default: &default
-  adapter: :postgres,
+
+DB = sequel.connect(
+  adapter: 'postgres',
   database: 'sinatra_seq_development',
   host: 'localhost',
   password: 'password',
   user: 'sinatra_admin',
   max_connections: 10,
-  #logger: Logger.new('log/db.log')
-)
+  # logger: Logger.new('log/db.log')
+      )
 
 
-
-  development:
-    <<: *default
-    database: sinatra_seq_development
-    password: password
-
-  test:
-    <<: *default
-    database: sinatra_seq_test
-    password: password
-
-  production:
-    <<: *default
-    database: sinatra_seq_production
-    password: password
 
